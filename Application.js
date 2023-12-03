@@ -12,6 +12,6 @@ window.onscroll = function() {
 
     if (scrollPercentage + 2 >= (100 - redDotPercentage)) {
         // If the box has collided with the red dot, move the red dot back to the right
-        redDot.style.right = '2%';
+        redDot.style.right = '200%';
     }
 }
